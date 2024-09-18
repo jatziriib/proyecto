@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Modificar contraseña</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label>Usuario a buscar: </ion-label>
+      <ion-input type="text" [(ngModel)]="nombre"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-button round (click)="buscar()">Buscar</ion-button>
+    </ion-item>
+  </ion-list>
+  <table>
+    <tr wrap *ngFor="let item of listado; let index=index">
+      <b><ion-label>Correo: </ion-label></b>{{item.correo}}
+    </tr>
+    <tr wrap *ngFor="let item of listado; let index=index">
+      <b><ion-label>Edad: </ion-label></b>{{item.edad}}
+    </tr>
+    <tr wrap *ngFor="let item of listado; let index=index">
+      <b><ion-label>Contraseña: </ion-label></b>{{item.contrasena}}<ion-input type="text" [(ngModel)]="d.contrasena"></ion-input>
+    </tr>
+  </table>
+<ion-button round (click)="actualizar()">Actualizar</ion-button>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="inicio" [routerLink]="['/prueba']">
+        <ion-icon name="home"></ion-icon>
+        <ion-label>Inicio</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="busqueda" [routerLink]="['/busqueda']">
+        <ion-icon name="search"></ion-icon>
+        <ion-label>Busqueda</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="biblioteca">
+        <ion-icon name="person-circle" [routerLink]="['/sesion']"></ion-icon>
+        <ion-label>cuenta</ion-label>
+      </ion-tab-button>
+  
+    </ion-tab-bar>
+  </ion-tabs>
+  </ion-toolbar>
+  </ion-footer>

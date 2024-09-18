@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>ejemplo</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-menu side="start" menuId="first" contentId="main">
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-title>Categoria</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <ion-item [routerLink]="['/novelas']">libros de romance</ion-item>
+      <br>
+      <ion-item [routerLink]="['/llorar']">libros que te haran llorar</ion-item>
+      <br>
+      <ion-item [routerLink]="['/ayuda']">libros de autoayuda</ion-item>
+      <br>
+      <ion-item [routerLink]="['/ficcion']">libros de ciencia ficcion</ion-item>
+      <br>
+      <ion-item [routerLink]="['/infantiles']">libros infantiles</ion-item>
+      <br>
+      <ion-item [routerLink]="['/fantasia']">libros de fantasia</ion-item>
+      <br>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+<ion-router-outlet id="main"></ion-router-outlet>
+
+</ion-content>

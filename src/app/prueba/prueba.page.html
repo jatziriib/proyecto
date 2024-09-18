@@ -1,0 +1,305 @@
+<ion-header>
+</ion-header>
+<ion-content fullscreen class="ion-padding" scroll-y="true">
+  <ion-menu side="start" menuId="first" contentId="main">
+    <ion-header>
+      <ion-toolbar color="primary">
+        <ion-title>Categoria</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-item [routerLink]="['/novelas']">libros de romance</ion-item>
+        <br>
+        <ion-item [routerLink]="['/llorar']">libros que te haran llorar</ion-item>
+        <br>
+        <ion-item [routerLink]="['/ayuda']">libros de autoayuda</ion-item>
+        <br>
+        <ion-item [routerLink]="['/ficcion']">libros de ciencia ficcion</ion-item>
+        <br>
+        <ion-item [routerLink]="['/infantiles']">libros infantiles</ion-item>
+        <br>
+        <ion-item [routerLink]="['/fantasia']">libros de fantasia</ion-item>
+        <br>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="main"></ion-router-outlet>
+
+  <br><br>
+  <ion-label id="categoria1">Novelas</ion-label>
+  <br>
+  <br>
+  <br>
+  <ion-slides>
+    <ion-slide>
+      <img src="assets/bajo.jpg">
+      <a href="https://drive.google.com/file/d/1ACIyCYaox0lcdRXRsb87Tq6AKGyzSRVi/view?usp=sharing">
+        <h2>Bajo la misma estrella</h2></a>
+        <p>
+           <b>John Green</b> 
+           <br>Hazel Grace Lancaster es una adolescente de 16 años que tiene cáncer terminal. Ella sabe que está muriendo ya que pasa su vida pegada a un tanque de oxígeno y sometida a constantes tratamientos, lo que la llevan entrar en una depresión. Para conseguir animarla, sus padres le recomiendan asistir a un grupo de apoyo.
+        </p>
+        
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/ELEANOR.jpg">
+      <a href="https://drive.google.com/file/d/1AEIIQABMo3P6FSvYO5pzX9HscX9IQQgw/view?usp=sharing">
+      <h2>Eleanor & Park</h2></a>
+      <p>
+        <b>Rainbow Rowell</b>
+        <br>Eleanor y Park son dos adolescentes que no siguen la corriente de los patrones definidos. No encajan del todo en el entorno que les ha tocado vivir, o con la gente con la que les ha tocado coincidir, cada uno a su manera. Entonces, un día, por casualidad, se ven obligados a sentarse juntos en el autobús
+      </p>
+    </ion-slide>
+
+    <ion-slide>
+<img src="assets/beso.jpg">
+<a href="https://drive.google.com/file/d/1PHTX3ZRfxRB6j6TtnEpoEToN1azkaICi/view?usp=sharing"> <h2>Un beso bajo la lluvia</h2> </a>
+      <p>
+        <b>Violeta Boyd</b> 
+        <br>Bajo la última lluvia pronosticada, en un romántico día de San Valentín, las cosas no resultaron bien para Floyd McFly. De pie, en medio de un parque, mojada y con el corazón hecho añicos, ella era la viva imagen de alguien a quien acababan de decirle: «Esto no va a funcionar».
+      </p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/libros.jpg" />
+      <h2>ver mas?</h2>
+      <ion-button fill="clear" [routerLink]="['/novelas']">Ver más <ion-icon slot="end" name="arrow-forward"></ion-icon></ion-button>
+    </ion-slide>
+  </ion-slides>
+<br>
+<br>
+<ion-label id="categoria2">Libros que te haran llorar</ion-label>
+<br>
+<br>
+  <ion-slides>
+    <ion-slide>
+        <img src="assets/bou.jpg" >
+        <a href="https://drive.google.com/file/d/1YyRC_F1KzMd7unX_ElGA8Z4h_V2OA1ja/view?usp=sharing"> <h2>Boulevard</h2> </a>
+       
+        <p>
+          <b>flor salvador</b><br>Una historia en donde dos adolescentes crean su propio Boulevard ante la llovizna que hay en sus corazones, con un cielo pintado de azul cálido en una parte y otra de un azul eléctrico, tiñéndose este por completo de un grisáceo nostálgico.
+        </p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/las.jpg" width="100">
+      <a href="https://drive.google.com/file/d/1AMbuunS0Rl7KPpxYp_fZ71aoVhtGfWSI/view?usp=sharing">
+      <h2>las ventajas de ser inivisible</h2></a>
+      <p>
+        <b>Stephen Chbosky</b><br>
+        Charlie se ha quedado solo tras el suicidio de su mejor amigo. Tiene una popular y guapa hermana, y un hermano mayor estrella de futbol americano a punto de entrar a la universidad. Pero él vive al margen para casi todos, salvo su profesor de Lengua, quien cree que Charlie posee una gran capacidad intelectual.
+      </p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/amor.jpg" />
+      <a href="https://drive.google.com/file/d/1AU33np2PrXoK21900QSw17CtLiNCIJlJ/view?usp=sharing">
+      <h2>Amor a cuatro estaciones: el diario de una ilusión</h2></a>
+      <p>
+        <b>Nacarid Portal</b><br> Christopher es un cantante y compositor juvenil que junto a su grupo musical está a punto de sacar un disco. Su vida está llena de fiestas, alcohol y excesos después de la muerte de su hermano gemelo.
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/llorar.jpg" />
+      <h2>ver mas?</h2>
+      <ion-button fill="clear" [routerLink]="['/llorar']">Ver más <ion-icon slot="end" name="arrow-forward"></ion-icon></ion-button>
+    </ion-slide>
+  </ion-slides>
+  <ion-label id="categoria3">Libros de Autoayuda</ion-label>
+<br>
+<br> 
+  <ion-slides>
+    <ion-slide>
+      <a href="https://drive.google.com/file/d/1-z84CUehNV-NdDrlyPwUntyOY2k9KRt7/view?usp=sharing"> <img src="assets/uno.jpg" ></a>
+       <a href="https://drive.google.com/file/d/1-z84CUehNV-NdDrlyPwUntyOY2k9KRt7/view?usp=sharing"> <h2>Uno siempre cambia al amor de su vida por otro amor o por otra vida</h2></a>
+        <p>
+           <b>Amalia Andrade</b> 
+          <br>En estas páginas encontrarás consejos y consuelo para superar las etapas del corazón roto. Además, te revelaré el secreto para curarlo y, quizá, para volver a enamorarte, porque en el amor y en el desamor nunca estamos solos.
+        </p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/quien.jpg" width="100">
+      <a href="https://drive.google.com/file/d/1ANMZYVi9KqMfO6DhANsryWhdQkwK0sgo/view?usp=sharing">
+      <h2>¿quien se ha llevado mi queso?</h2></a>
+      <p>
+        <b>Spencer Johnson</b><br> ¿Quién se ha llevado mi queso? Una manera sorprendente de afrontar el cambio en el trabajo y en la vida privada, publicado en 1998, es un libro de motivación escrito por el estadounidense Spencer Johnson en el estilo de una parábola y alegoria.
+      </p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/razones.jfif" />
+      <a href="https://drive.google.com/file/d/1AkXcueE6nfZIqhuOCNSny3GuqWqyLW0p/view?usp=sharing">
+      <h2>Razones para seguir viviendo</h2></a>
+      <p>
+        <b>Matt Haig</b><br> Razones para seguir viviendo - Matt Haig
+    
+        ¿Qué significa sentirse realmente vivo?
+        A los veinticuatro años, el mundo de Matt Haig se derrumbó. No encontraba razones para seguir viviendo. Ésta es la historia real de cómo superó su depresión, triunfó sobre la enfermedad...
+      </p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/auto.jpg" />
+      <h2>Ready to Play?</h2>
+      <ion-button fill="clear"  [routerLink]="['/ayuda']">Ver más <ion-icon slot="end" name="arrow-forward"></ion-icon></ion-button>
+    </ion-slide>
+  </ion-slides>
+<br>
+<br>
+<ion-label id="categoria4">Libros ciencia ficcion</ion-label>
+  <br>
+  <br>
+  <ion-slides>
+    <ion-slide>
+        <img src="assets/correr.jpg" >
+        <a href="https://drive.google.com/file/d/10haMfPRm9UdnOQO48n1FFdXlRTIvgRvz/view?usp=sharing"> <h2>Maze Runner: correr o morir</h2> </a>
+       
+        <p>
+          <b> James Dashner</b> 
+          <br>
+          Thomas es un adolescente cuya memoria fue borrada y que ha sido encerrado junto a otros chicos de su edad en un laberinto plagado de monstruos y misterios. Para sobrevivir, tendrá que adaptarse a las normas y a los demás habitantes del laberinto.
+        </p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/prueba.jpg">
+      <a href="https://drive.google.com/file/d/10kADA7mm76VW3WSQrKbKXrFQRabgarhc/view?usp=sharing"><h2>Maze Runner: prueba de fuego</h2></a>
+      <p>
+        <b>James Dashner</b> 
+        <br>
+        Tras escapar de El Laberinto, Thomas y sus compañeros llegan en helicóptero a un recinto desconocido que está siendo atacado por los 'raros' o humanos infectados. Allí los recibe el señor Janson, quien les anuncia que es el director del lugar, un refugio en el que estarán protegidos de CRUEL.
+      </p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/mortal.jpg" />
+      <a href="https://drive.google.com/file/d/10qAwXbiRpjWeeo--SjfMZzy6pBwD60zl/view?usp=sharing"><h2>Maze Runner: la cura mortal</h2></a>
+      <p>
+        <b>James Dashner</b> 
+        <br>
+        Thomas no puede confiar en CRUEL. La organización le borró los recuerdos y lo encerró en el Laberinto. Después lo dejó al borde de la muerte, en el Desierto. Ahora, decidido a encontrar la cura para la enfermedad que está acabando con la población mundial, Thomas se adentra con sus amigos en el bastión de la organización.
+      </p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/fic.jpg" />
+      <ion-button fill="clear" [routerLink]="['/ficcion']">Ver más <ion-icon slot="end" name="arrow-forward" ></ion-icon></ion-button>
+    </ion-slide>
+  </ion-slides>
+  <br>
+  <br>
+  <ion-label id="categoria5">Libros infantiles</ion-label>
+    <br>
+    <br>
+    <ion-slides>
+      <ion-slide>
+          <img src="assets/el.jpg" >
+          <a href="https://drive.google.com/file/d/1--WMGRTonZKec9bdMh9llqVUsgq-1pE9/view?usp=sharing"> <h2>El principito</h2> </a>
+         
+          <p>
+            <b> Antoine de Saint-Exupéry</b> 
+            <br>
+            El principito es una narración corta del escritor francés Antoine de Saint-Exupéry, que trata de la historia de un pequeño príncipe que parte de su asteroide a una travesía por el universo, en la cual descubre la extraña forma en que los adultos ven la vida y comprende el valor del amor y la amistad.
+          </p>
+      </ion-slide>
+  
+      <ion-slide>
+        <img src="assets/charli.jpg">
+        <a href=""><h2>charlie y la fabrica de chocolate</h2></a>
+        <p>
+          <b>Roald Dahl</b> 
+          <br>
+          Un niño que vive en la pobreza, en una casa de sólo dos habitaciones, con sus padres y abuelos, recibe siempre por su cumpleaños una sola tableta de chocolate. Junto a su casa, una gran fábrica de chocolate sortea una visita guiada y cinco tabletas a quien encuentre el premio en uno de los envoltorios.
+        </p>
+      </ion-slide>
+  
+      <ion-slide>
+        <img src="assets/lan.jpg" />
+        <a href="https://drive.google.com/file/d/10qAwXbiRpjWeeo--SjfMZzy6pBwD60zl/view?usp=sharing"><h2>la niña que se bebio la luna</h2></a>
+        <p>
+          <b>kelly</b> 
+          <br>
+          Esta es la historia de una niña que nació sin magia, y bebiendo luz de luna se convirtió en una persona enmagizada. De una bruja con un gran corazón y una misión imprevista. De un monstruo del pantano sabio y poeta. Y de un minúsculo dragón que espera crecer algún día.
+        </p>
+      </ion-slide>
+  
+      <ion-slide>
+        <img src="./slide-4.png" />
+        <ion-button fill="clear" [routerLink]="['/infantiles']">Ver más <ion-icon slot="end" name="arrow-forward" ></ion-icon></ion-button>
+      </ion-slide>
+    </ion-slides>
+
+    <ion-label id="categoria6">Libros de fantasia</ion-label>
+    <br>
+    <br>
+    <ion-slides>
+      <ion-slide>
+          <img src="assets/h1.jpeg" >
+          <a href="https://drive.google.com/file/d/1UL45q-j0vDftAx9SBKRg3vNUjxMsKzFN/view?usp=sharing"> <h2>Harry Potter y la piedra filosofal</h2> </a>
+         
+          <p>
+            <b> - J. K. Rowling</b> 
+            <br>
+             
+Serie: Harry Potter #1
+Harry Potter se ha quedado huérfano y vive en casa de sus abominables tíos y del insoportable primo Dudley. Harry se siente muy triste y solo, hasta que un buen día recibe...
+          </p>
+      </ion-slide>
+  
+      <ion-slide>
+        <img src="assets/h2.jfif">
+        <a href="https://drive.google.com/file/d/1USsT7nPRzVAAOMexTXNZlmdiS7IiRf_q/view?usp=sharing"><h2>Harry Potter y la cámara secreta</h2></a>
+        <p>
+          <b> - J. K. Rowling</b> 
+          <br>
+          Serie: Harry Potter #2
+          Tras derrotar una vez más a lord Voldemort, su siniestro enemigo en Harry Potter y la piedra filosofal, Harry espera impaciente en casa de sus insoportables tíos el inicio del...
+        </p>
+      </ion-slide>
+  
+      <ion-slide>
+        <img src="assets/h3.jfif" />
+        <a href="https://drive.google.com/file/d/1UTO1yHfCeh7pLBok_t4pxCyctJK5ins0/view?usp=sharing"><h2>Harry Potter y el prisionero de Azkaban</h2></a>
+        <p>
+          <b> - J. K. Rowling</b> 
+          <br> 
+          Serie: Harry Potter #3
+          Por la cicatriz que lleva en la frente, sabemos que Harry Potter no es un niño como los demás, sino el héroe que venció a lord Voldemort, el mago más temible y maligno...
+        </p>
+      </ion-slide>
+  
+      <ion-slide>
+        <img src="assets/hh.jpg" />
+        <h2>ver mas?</h2>
+        <ion-button fill="clear" [routerLink]="['/fantasia']">Ver más <ion-icon slot="end" name="arrow-forward" ></ion-icon></ion-button>
+      </ion-slide>
+    </ion-slides> 
+  
+</ion-content>
+<ion-footer>
+<ion-toolbar>
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="inicio" [routerLink]="['/prueba']">
+      <ion-icon name="home"></ion-icon>
+      <ion-label>Inicio</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="busqueda" [routerLink]="['/busqueda']">
+      <ion-icon name="search"></ion-icon>
+      <ion-label>Busqueda</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="biblioteca">
+      <ion-icon name="person-circle" [routerLink]="['/sesion']"></ion-icon>
+      <ion-label>cuenta</ion-label>
+    </ion-tab-button>
+
+   
+  </ion-tab-bar>
+</ion-tabs>
+</ion-toolbar>
+</ion-footer>

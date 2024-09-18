@@ -1,0 +1,38 @@
+ion-slides {
+    height: 100%;
+  }
+
+  .swiper-slide {
+    display: block;
+  }
+
+  .swiper-slide h2 {
+    margin-top: 0.1rem;
+  }
+
+  .swiper-slide img {
+    max-height: 50%;
+    max-width: 80%;
+    margin: 0px 0 30px;
+    pointer-events: none;
+  }
+
+  b {
+    font-weight: 500;
+  }
+
+  p {
+    padding: 0 40px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--ion-color-step-600, #000000);
+  }
+
+  p b {
+    color: var(--ion-text-color, #000000);
+  }
+  ion-toolbar{--ion-background-color:   rgba(1148, 111, 241  ) !important}
+
+  ion-content{ --background: linear-gradient(197deg, rgba(111, 241, 233  ) 0%,rgba(111, 231, 241) 0%,
+    rgba(111, 188, 241 ) 30%, rgba(1148, 111, 241  ) 100%) !important}
+    ion-card{--ion-background-color: #6FF1E9;}

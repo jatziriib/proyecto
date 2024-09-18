@@ -1,0 +1,31 @@
+<ion-header>
+</ion-header>
+
+<ion-content>
+  <br><br><br><br>
+<br>
+<br>
+<br>
+<br>
+
+  <ion-list>
+    <ion-item>
+    <ion-label position="floating">Nombre de usuario</ion-label>
+    <ion-input type="text" [(ngModel)]="username"></ion-input>
+    </ion-item>
+    <ion-item>
+    <ion-label position="floating">Contraseña</ion-label>
+    <ion-input type="password" [(ngModel)]="password"></ion-input>
+    </ion-item>
+    </ion-list>
+
+    <ion-list>
+    <div>
+    <ion-button expand="block" padding color="tertiary" fill="outline" (click)="Login()">Inciar sesion</ion-button>
+    <ion-button expand="block" padding color="tertiary" (click)="formRegister()">
+    Registrarse </ion-button>
+    <center><ion-button [routerLink]="['/contrasena']">Modificar contraseña</ion-button></center>
+    </div>
+    </ion-list>
+
+</ion-content>

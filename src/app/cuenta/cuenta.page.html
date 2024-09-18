@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>cuenta</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<i class="material-icons">seleccionar archivo</i>
+
+<input type="File" acept="image/*" (change)="updateSource($event)">
+<img *ngIf="source" [src]="source" src="">
+</ion-content>
